@@ -1,0 +1,476 @@
+| version:revision - path
+
+
+
+| ===========================================
+| CS:S v34 modded no steam with many of custom maps (including my own maps)
+| ===========================================
+v19:1097 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_spetsnaz_v2.bsp
+v19:1204 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_militia_bymicosV1.bsp
+v19:1407 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust3.bsp
+v19:1545 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_stalker.bsp
+v19:2142 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_withdrawal.bsp
+v19:228 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_mansion.bsp
+v19:2932 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_losttemple.bsp
+v19:351 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\zt_assualt.bsp
+v19:3959 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_inferno.bsp
+v19:41 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\gg_aim_furious.bsp
+v19:447 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust2.bsp
+v19:517 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_assault_mini.bsp
+v19:542 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_assault_lith.bsp
+v19:849 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_energo.bsp
+v19:96 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_junkyard.bsp
+v20:1 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_test.bsp
+v20:10000 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_frost.bsp
+v20:11 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_map_usp.bsp
+v20:11 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust2_2x2.bsp
+v20:112 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_bigcity_antim.bsp
+v20:1174 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_zavod_yantar.bsp
+v20:1424 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust2_xt_beta.bsp
+v20:145 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_mini_dust_hdr.bsp
+v20:1456 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust.bsp
+v20:1588 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_siege_2007.bsp
+v20:1723 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_apartments.bsp
+v20:1760 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_hauntedmanor_beta.bsp
+v20:197 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_pyramid_css.bsp
+v20:2085 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_train.bsp
+v20:24 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_jungle_dust_beta1.bsp
+v20:2689 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_cache.bsp
+v20:27 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_ag_texture_city.bsp
+v20:2713 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_fawlty_towers.bsp
+v20:2902 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_abscond_07.bsp
+v20:3 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\awp_lego_2.bsp
+v20:3 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\background01.bsp
+v20:317 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_estate_source.bsp
+v20:3465 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\af_omega_v2.bsp
+v20:410 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_office2.bsp
+v20:413 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_militia_classic.bsp
+v20:413 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_northtower.bsp
+v20:4348 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\zm_atix_helicopter.bsp
+v20:5025 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_thematrix_11.bsp
+v20:541 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_parkhouse.bsp
+v20:57 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\de_dust2_csgo.bsp
+v20:572 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_beach.bsp
+v20:583 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_atafaris+.bsp
+v20:698 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_office07.bsp
+v20:70 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_civilwar.bsp
+v20:75 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_deagle7k.bsp
+v20:81 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_ag_texture_city_advanced.bsp
+v20:932 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\cs_747_css.bsp
+v21:82 - E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\maps\aim_ag_texture_city_antim.bsp
+
+
+
+| ===========================================
+| CS:S original with custom maps
+| ===========================================
+v19:1170 - E:\Games\Counter-Strike Source\cstrike\maps\de_port.bsp
+v19:1381 - E:\Games\Counter-Strike Source\cstrike\maps\cs_office.bsp
+v19:1712 - E:\Games\Counter-Strike Source\cstrike\maps\de_prodigy.bsp
+v19:1876 - E:\Games\Counter-Strike Source\cstrike\maps\test_hardware.bsp
+v19:213 - E:\Games\Counter-Strike Source\cstrike\maps\de_cbble.bsp
+v19:2273 - E:\Games\Counter-Strike Source\cstrike\maps\de_tides.bsp
+v19:2807 - E:\Games\Counter-Strike Source\cstrike\maps\cs_assault.bsp
+v19:292 - E:\Games\Counter-Strike Source\cstrike\maps\de_chateau.bsp
+v19:3114 - E:\Games\Counter-Strike Source\cstrike\maps\cs_compound.bsp
+v19:322 - E:\Games\Counter-Strike Source\cstrike\maps\cs_italy.bsp
+v19:345 - E:\Games\Counter-Strike Source\cstrike\maps\test_speakers.bsp
+v19:433 - E:\Games\Counter-Strike Source\cstrike\maps\de_piranesi.bsp
+v19:561 - E:\Games\Counter-Strike Source\cstrike\maps\cs_havana.bsp
+v19:882 - E:\Games\Counter-Strike Source\cstrike\maps\de_aztec.bsp
+v20:1154 - E:\Games\Counter-Strike Source\cstrike\maps\de_scrapyard.bsp
+v20:1486 - E:\Games\Counter-Strike Source\cstrike\maps\de_dust.bsp
+v20:179 - E:\Games\Counter-Strike Source\cstrike\maps\de_inetcafe.bsp
+v20:2062 - E:\Games\Counter-Strike Source\cstrike\maps\de_nuke.bsp
+v20:2085 - E:\Games\Counter-Strike Source\cstrike\maps\de_train.bsp
+v20:239 - E:\Games\Counter-Strike Source\cstrike\maps\de_canals.bsp
+v20:27 - E:\Games\Counter-Strike Source\cstrike\maps\aim_ag_texture2_sniperangel.bsp
+v20:29 - E:\Games\Counter-Strike Source\cstrike\maps\de_ascoria_v1c.bsp
+v20:38 - E:\Games\Counter-Strike Source\cstrike\maps\de_inferno_csgo.bsp
+v20:4102 - E:\Games\Counter-Strike Source\cstrike\maps\de_inferno.bsp
+v20:4781 - E:\Games\Counter-Strike Source\cstrike\maps\cs_militia.bsp
+v20:51 - E:\Games\Counter-Strike Source\cstrike\maps\de_train_csgo.bsp
+v20:553 - E:\Games\Counter-Strike Source\cstrike\maps\de_dust2.bsp
+v20:961 - E:\Games\Counter-Strike Source\cstrike\maps\de_mirage_cs1.6.bsp
+
+
+
+| ===========================================
+| GMOD related maps
+| ===========================================
+v20:146 - E:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\gm_flatgrass.bsp
+v20:16366 - E:\DiskD\GarrysMod\For_Create\gm_fork\maps\gm_fork.bsp
+v20:1765 - E:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\maps\gm_construct.bsp
+v20:3 - E:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\gm_fork_antim\maps\gm_fork_antim.bsp
+
+
+| ===========================================
+| GMOD 1-9 gm_construct
+| ===========================================
+v19:122 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod1\maps\gm_construct.bsp
+v19:139 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod3a\maps\gm_construct_white.bsp
+v19:157 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod3a\maps\gm_construct.bsp
+v19:194 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod4a\maps\gm_construct.bsp
+v19:229 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod5\maps\gm_construct.bsp
+v19:252 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod6a\maps\gm_construct.bsp
+v19:265 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod7\maps\gm_construct.bsp
+v19:272 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod7a\maps\gm_construct.bsp
+v19:324 - E:\Program Files (x86)\Steam\steamapps\sourcemods\!f\gmod8\maps\gm_construct.bsp
+
+
+
+| ===========================================
+| The Stanley Parable (sourcemod, not game)
+| ===========================================
+v20:5431 - E:\Program Files (x86)\Steam\steamapps\sourcemods\thestanleyparable\maps\Trainstation.bsp
+v20:1831 - E:\Program Files (x86)\Steam\steamapps\sourcemods\thestanleyparable\maps\Stanley.bsp
+v20:6 - E:\Program Files (x86)\Steam\steamapps\sourcemods\thestanleyparable\maps\Stanley_background.bsp
+
+
+| ===========================================
+| The Stanley Parable (game)
+| ===========================================
+v21:112 - E:\Games\The Stanley Parable\thestanleyparable\maps\theonlymap.bsp
+v21:131 - E:\Games\The Stanley Parable\thestanleyparable\maps\testchmb_a_00.bsp
+v21:1409 - E:\Games\The Stanley Parable\thestanleyparable\maps\map1.bsp
+v21:149 - E:\Games\The Stanley Parable\thestanleyparable\maps\freedom.bsp
+v21:1656 - E:\Games\The Stanley Parable\thestanleyparable\maps\blockbase.bsp
+v21:191 - E:\Games\The Stanley Parable\thestanleyparable\maps\thefirstmap.bsp
+v21:198 - E:\Games\The Stanley Parable\thestanleyparable\maps\map_one.bsp
+v21:198 - E:\Games\The Stanley Parable\thestanleyparable\maps\zending.bsp
+v21:38 - E:\Games\The Stanley Parable\thestanleyparable\maps\map.bsp
+v21:401 - E:\Games\The Stanley Parable\thestanleyparable\maps\map_death.bsp
+v21:429 - E:\Games\The Stanley Parable\thestanleyparable\maps\map2.bsp
+
+
+| ===========================================
+| The Beginner's Guide
+| ===========================================
+v21:10 - E:\Games\The Beginner's Guide\beginnersguide\maps\down.bsp
+v21:10 - E:\Games\The Beginner's Guide\beginnersguide\maps\house.bsp
+v21:10 - E:\Games\The Beginner's Guide\beginnersguide\maps\mobius.bsp
+v21:10 - E:\Games\The Beginner's Guide\beginnersguide\maps\presence.bsp
+v21:1255 - E:\Games\The Beginner's Guide\beginnersguide\maps\whisper.bsp
+v21:18 - E:\Games\The Beginner's Guide\beginnersguide\maps\note.bsp
+v21:23 - E:\Games\The Beginner's Guide\beginnersguide\maps\notes.bsp
+v21:239 - E:\Games\The Beginner's Guide\beginnersguide\maps\maze2.bsp
+v21:292 - E:\Games\The Beginner's Guide\beginnersguide\maps\lecturer.bsp
+v21:328 - E:\Games\The Beginner's Guide\beginnersguide\maps\backwards.bsp
+v21:4 - E:\Games\The Beginner's Guide\beginnersguide\maps\escape.bsp
+v21:423 - E:\Games\The Beginner's Guide\beginnersguide\maps\stairs.bsp
+v21:447 - E:\Games\The Beginner's Guide\beginnersguide\maps\nomansland2.bsp
+v21:479 - E:\Games\The Beginner's Guide\beginnersguide\maps\theater.bsp
+v21:52 - E:\Games\The Beginner's Guide\beginnersguide\maps\menu.bsp
+v21:571 - E:\Games\The Beginner's Guide\beginnersguide\maps\puzzle.bsp
+v21:77 - E:\Games\The Beginner's Guide\beginnersguide\maps\intro.bsp
+v21:78 - E:\Games\The Beginner's Guide\beginnersguide\maps\menu2.bsp
+v21:81 - E:\Games\The Beginner's Guide\beginnersguide\maps\menu3.bsp
+v21:821 - E:\Games\The Beginner's Guide\beginnersguide\maps\nomansland1.bsp
+v21:87 - E:\Games\The Beginner's Guide\beginnersguide\maps\entering.bsp
+v21:97 - E:\Games\The Beginner's Guide\beginnersguide\maps\tower.bsp
+v21:98 - E:\Games\The Beginner's Guide\beginnersguide\maps\exiting.bsp
+v21:994 - E:\Games\The Beginner's Guide\beginnersguide\maps\machine.bsp
+
+
+
+| ===========================================
+| HL2/EP1/EP2/LostCoast
+| ===========================================
+v19:1167 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d3_citadel_02.bsp
+v19:1528 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d3_c17_04.bsp
+v19:2052 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d1_canals_12.bsp
+v19:2140 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d2_prison_08.bsp
+v19:2157 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d1_trainstation_03.bsp
+v19:2170 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d2_coast_08.bsp
+v19:2619 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\background02.bsp
+v19:2648 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d3_breen_01.bsp
+v19:2809 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\background04.bsp
+v19:2828 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\d3_c17_02_camera.bsp
+v19:3241 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\intro.bsp
+v19:58 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\sdk_shader_samples.bsp
+v19:14 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\credits.bsp
+v20:2557 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_background01.bsp
+v20:2881 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_citadel_00.bsp
+v20:738560 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_citadel_00_demo.bsp
+v20:9323 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_background02.bsp
+v20:9624 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_c17_01.bsp
+v20:9743 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_c17_01a.bsp
+v20:10935 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_outland_01.bsp
+v20:4663 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_outland_11.bsp
+v20:4860 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_background03.bsp
+v20:4941 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_background02a.bsp
+v20:5832 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_background02.bsp
+v20:5938 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_outland_04.bsp
+v20:9942 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\maps\ep2_background01.bsp
+v20:5393 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\lostcoast\maps\d2_lostcoast.bsp
+v20:5397 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\lostcoast\maps\background01.bsp
+v20:5421 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\lostcoast\maps\test_hardware.bsp
+v20:5421 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\lostcoast\maps\vst_lostcoast.bsp
+
+
+
+| ===========================================
+| HL2/EP1/EP2 :Mmod
+| ===========================================
+v20:149 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d2_prison_05.bsp
+v20:1556 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d2_coast_03.bsp
+v20:166 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d3_citadel_03.bsp
+v20:5898 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_trainstation_01.bsp
+v20:687 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_town_01.bsp
+v20:704 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_canals_10.bsp
+v20:706 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\test.bsp
+v20:244 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\ep1_c17_00a.bsp
+v20:261 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\ep1_citadel_03.bsp
+v20:795 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\test.bsp
+v20:120 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\ep2_outland_03.bsp
+v20:187 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\ep2_outland_11a.bsp
+v20:547 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\test.bsp
+
+
+
+| ===========================================
+| KreedzClimbing, kz maps
+| ===========================================
+v20:10 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_beginnerblock.bsp
+v20:10 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_mausolus.bsp
+v20:101 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_bhop_volcanohop.bsp
+v20:103 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_powerjump.bsp
+v20:107 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_egyptian_halls.bsp
+v20:67 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_cellblock.bsp
+v20:867 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kztag_island.bsp
+v20:87 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_surfcrazy.bsp
+v20:87 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_tutorial.bsp
+v20:91 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_sukblock.bsp
+v20:94 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\download\maps\kz_space-snow.bsp
+v20:94 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_xmas2010.bsp
+
+
+
+| ===========================================
+| Portal Beta
+| ===========================================
+v20:100 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch2a.bsp
+v20:102 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch8a.bsp
+v20:108 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch7a_adv.bsp
+v20:109 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch8a_adv.bsp
+v20:16 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\background3.bsp
+v20:172 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch8b.bsp
+v20:175 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\pb_testchamber_ch8b_adv.bsp
+v20:265 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\PPB_Portal_Challenge.bsp
+v20:3 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\z_load_portal.bsp
+v20:843 - E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\maps\ppa_testchambers_03.bsp
+
+
+
+| ===========================================
+| Portal 2, singleplayer/coop maps
+| ===========================================
+v21:10 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a1_intro7.bsp
+v21:11 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a2_core.bsp
+v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_fan.bsp
+v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a3_portal_intro.bsp
+v21:145 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_doors.bsp
+v21:145 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_fling_1.bsp
+v21:145 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_lobby_2.bsp
+v21:145 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_wall_2.bsp
+v21:145 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2_dlc1\maps\mp_coop_lobby_3.bsp
+v21:22 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a3_01.bsp
+v21:225 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a4_tb_intro.bsp
+v21:23 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_paint_come_along.bsp
+v21:23 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a3_jump_intro.bsp
+v21:39 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2_dlc1\maps\mp_coop_2paints_1bridge.bsp
+v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a1_wakeup.bsp
+v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2_dlc1\maps\mp_coop_bridge_catch.bsp
+v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2_dlc1\maps\mp_coop_separation_1.bsp
+v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2_dlc1\maps\mp_coop_tripleaxis.bsp
+v21:46 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\e1912.bsp
+v21:46 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a2_bts2.bsp
+v21:5 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_rat_maze.bsp
+v21:5 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_tbeam_redirect.bsp
+v21:859 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a1_intro2.bsp
+v21:860 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\sp_a2_fizzler_intro.bsp
+v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\maps\mp_coop_paint_bridge.bsp
+
+
+
+| ===========================================
+| CS:GO official + workshop + sdk maps
+| ===========================================
+v21:10033 - E:\Games\!CSGOServer\sv\csgo\maps\de_mirage.bsp
+v21:1008 - E:\Games\!CSGOServer\sv\csgo\maps\ar_dizzy.bsp
+v21:10419 - E:\Games\!CSGOServer\sv\csgo\maps\de_dust2.bsp
+v21:10498 - E:\Games\!CSGOServer\sv\csgo\maps\cs_militia.bsp
+v21:13034 - E:\Games\!CSGOServer\sv\csgo\maps\dz_blacksite.bsp
+v21:14041 - E:\Games\!CSGOServer\sv\csgo\maps\de_vertigo.bsp
+v21:1421 - E:\Games\!CSGOServer\sv\csgo\maps\dz_sirocco.bsp
+v21:1428 - E:\Games\!CSGOServer\sv\csgo\maps\ar_baggage.bsp
+v21:16048 - E:\Games\!CSGOServer\sv\csgo\maps\de_nuke.bsp
+v21:16087 - E:\Games\!CSGOServer\sv\csgo\maps\de_shortnuke.bsp
+v21:1748 - E:\Games\!CSGOServer\sv\csgo\maps\ar_shoots.bsp
+v21:17862 - E:\Games\!CSGOServer\sv\csgo\maps\de_overpass.bsp
+v21:18459 - E:\Games\!CSGOServer\sv\csgo\maps\de_train.bsp
+v21:2171 - E:\Games\!CSGOServer\sv\csgo\maps\ar_monastery.bsp
+v21:2468 - E:\Games\!CSGOServer\sv\csgo\maps\de_safehouse.bsp
+v21:25676 - E:\Games\!CSGOServer\sv\csgo\maps\de_inferno.bsp
+v21:2830 - E:\Games\!CSGOServer\sv\csgo\maps\de_sugarcane.bsp
+v21:2875 - E:\Games\!CSGOServer\sv\csgo\maps\cs_italy.bsp
+v21:3017 - E:\Games\!CSGOServer\sv\csgo\maps\de_bank.bsp
+v21:34207 - E:\Games\!CSGOServer\sv\csgo\maps\de_cache.bsp
+v21:364 - E:\Games\!CSGOServer\sv\csgo\maps\ar_lunacy.bsp
+v21:3672 - E:\Games\!CSGOServer\sv\csgo\maps\cs_office.bsp
+v21:3859 - E:\Games\!CSGOServer\sv\csgo\maps\de_shortdust.bsp
+v21:3907 - E:\Games\!CSGOServer\sv\csgo\maps\cs_agency.bsp
+v21:4139 - E:\Games\!CSGOServer\sv\csgo\maps\de_stmarc.bsp
+v21:4175 - E:\Games\!CSGOServer\sv\csgo\maps\coop_kasbah.bsp
+v21:4176 - E:\Games\!CSGOServer\sv\csgo\maps\cs_assault.bsp
+v21:4396 - E:\Games\!CSGOServer\sv\csgo\maps\de_breach.bsp
+v21:4644 - E:\Games\!CSGOServer\sv\csgo\maps\de_canals.bsp
+v21:4874 - E:\Games\!CSGOServer\sv\csgo\maps\de_lake.bsp
+v21:488 - E:\Games\!CSGOServer\sv\csgo\maps\gd_rialto.bsp
+v21:4970 - E:\Games\!CSGOServer\sv\csgo\maps\de_cbble.bsp
+v21:5057 - E:\Games\!CSGOServer\sv\csgo\maps\gd_cbble.bsp
+v21:648 - E:\Games\!CSGOServer\sv\csgo\maps\training1.bsp
+v21:729 - E:\Games\!CSGOServer\sv\csgo\maps\de_studio.bsp
+v21:8507 - E:\Games\!CSGOServer\sv\csgo\maps\dz_junglety.bsp
+v21:103 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\unity_test.bsp
+v21:107 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\122443683\aim_map.bsp
+v21:11 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\retakes_vertigo.bsp
+v21:1113 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\353366249\tr_trainingcenter.bsp
+v21:113 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\903621518\aim_ag_texture_city_antim.bsp
+v21:1182 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\419404847\recoil_master.bsp
+v21:124 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1202643420\yprac_dust2.bsp
+v21:1308 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1788590016\marduks_weapon_training1_05.bsp
+v21:131 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\surf_strike.bsp
+v21:132 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\awp_new.bsp
+v21:1334 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1365781615\yprac_aim.bsp
+v21:1344 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1104441138\yprac_arena.bsp
+v21:135 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1339439320\yprac_overpass.bsp
+v21:14091 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo.bsp
+v21:15 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\858648080\surf_kitsune_fix_.bsp
+v21:1648 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1851762652\aimcourse_favela_gc.bsp
+v21:17 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\aim_map.bsp
+v21:17 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\retakes_dust_2.bsp
+v21:17 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_visrooms.bsp
+v21:17 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1377592684\yprac_inferno.bsp
+v21:1760 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1924110957\aim_challenge2.bsp
+v21:1765 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1346665229\gm_construct.bsp
+v21:1777 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1534658496\aim_challenge.bsp
+v21:1820 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\243702660\aim_botz.bsp
+v21:1833 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1909226147\offset_challenge_01.bsp
+v21:1859 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\963274436\aim_time_trial.bsp
+v21:19 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_vhv.bsp
+v21:1955 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\330746573\aim_course.bsp
+v21:2017 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\379868494\aim_course2.bsp
+v21:21 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_shadow.bsp
+v21:211 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1962454916\yprac_360_benchmark.bsp
+v21:215 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1880365804\training_sound.bsp
+v21:218 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1563657794\yprac_aim_usp.bsp
+v21:2198 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\308490450\xhair_v3.bsp
+v21:22 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo_optimized_badshadows.bsp
+v21:25 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_custom_vhv.bsp
+v21:25 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\506231819\ak-47_map_edited.bsp
+v21:28 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo_optimized.bsp
+v21:3 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_clip1.bsp
+v21:3 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_cubemaps.bsp
+v21:30 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\antim_challenge.bsp
+v21:30 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_controller.bsp
+v21:327 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\surf_monolith.bsp
+v21:34365 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1855851320\de_cache.bsp
+v21:365 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1974238958\the_clukva_d.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_bigladder.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_lightdisplacements.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_shadow2.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_water.bsp
+v21:422 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1941239302\blast_performance.bsp
+v21:428 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1322544593\aim_gamerz.bsp
+v21:4411 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_breach.bsp
+v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1579290805\retakes_inferno_b.bsp
+v21:4539 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\241148414\training_aim_csgo2_dark.bsp
+v21:48 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo_stream.bsp
+v21:48 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1357956676\eto_me_map_666.bsp
+v21:488 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\647772108\tr_reflex_remake_v4-d2_hr.bsp
+v21:493 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\2010240603\ilia3.bsp
+v21:53 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1222094548\yprac_mirage.bsp
+v21:579 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\500334237\fps_benchmark.bsp
+v21:584 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1769156337\komplett_course.bsp
+v21:6 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1733840974\de_vertigo_cso2.bsp
+v21:60 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1767808189\retakes_vertigo.bsp
+v21:6622 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\coop_kasbah.bsp
+v21:669 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_textured_city_antim.bsp
+v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1506437439\am_dusty.bsp
+v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\368026786\aimtraindriving_sf.bsp
+v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_3dskybox.bsp
+v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\943491697\de_prodigy_d.bsp
+v21:734 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_studio.bsp
+v21:749 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1873758261\tes_aim.bsp
+v21:750 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\703668900\tr_situation2.bsp
+v21:79 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\132434038\ak-47_map_csgo.bsp
+v21:88 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1234716875\yprac_cache.bsp
+v21:10 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_nadeclips\test_nadeclips1.bsp
+v21:100 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_vehicles\test_vehicles.bsp
+v21:11 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_vis\test_vis.bsp
+v21:117 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\aim_training\aim_training.bsp
+v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\retakes_inferno_a\retakes_inferno_a.bsp
+v21:14 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!hlm\hlm_mirage\hlm_mirage.bsp
+v21:151 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\mg_whoisfaster\mg_whoisfaster.bsp
+v21:18 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_uitext\test_uitext.bsp
+v21:19 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_lightmaps2\test_lightmaps2.bsp
+v21:2 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\dz_empty\dz_empty.bsp
+v21:218 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\training_hotel_old\training_hotel.bsp
+v21:22 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\test_soundspeakers\test_soundspeakers.bsp
+v21:28 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\gd_cache_b\gd_cache_b.bsp
+v21:3 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\auto_shoot\auto_shoot.bsp
+v21:3 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_lightmaps\test_lightmaps.bsp
+v21:33 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!hlm\hlm_apocalypse\hlm_apocalypse.bsp
+v21:39 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\dz_template\maps\dz_testmap.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_debug_drawing\test_debug_drawing.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_lighting\test_lighting.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_nadeclips\test_nadeclips2.bsp
+v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\toggle_awp\toggle_awp.bsp
+v21:44 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\retakes_inferno\retakes_inferno.bsp
+v21:5 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_controller\test_bigladder.bsp
+v21:8 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\64_128\64_128.bsp
+v21:8 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!tests\test_maze\test_maze.bsp
+v21:82 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\dz_villain\dz_villain.bsp
+v21:86 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\mg_pc\mg_pc.bsp
+v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\!my\events_test\events_test.bsp
+
+
+| ===========================================
+| L4D2
+| ===========================================
+v21:10 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\curling_stadium.bsp
+v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m1_hotel.bsp
+v21:138 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards.bsp
+v21:177 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards_vs.bsp
+v21:2 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m4_atrium.bsp
+v21:21 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m3_mall.bsp
+v21:26 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\credits.bsp
+v21:96 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c5m5_bridge.bsp
+v21:29 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c7m3_port.bsp
+v21:7351 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c8m3_sewers.bsp
+v21:2034 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m1_alpinecreek.bsp
+v21:27 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m3_memorialbridge.bsp
+v21:4252 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c12m3_bridge.bsp
+v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c10m4_mainstreet.bsp
+
+
+| ===========================================
+| sdk maps? (nice path)
+| ===========================================
+v20:127 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_faceposer1.bsp
+v20:20 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_cubemaps.bsp
+v20:26 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\sdk\maps\sdk_teams_hdr1.bsp
+v20:27 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_func_detail1.bsp
+v20:32 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\cstrike\mapsrc\sdk_3d_skybox.bsp
+v20:39 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\cstrike\mapsrc\sdk_water1.bsp
+v20:50 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_cables.bsp
+v20:51 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_cables1.bsp
+v20:53 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_materials.bsp
+v20:54 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_materials1.bsp
+v20:60 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_hints1.bsp
+v20:71 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_occluders.bsp
+v20:72 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_occluders1.bsp
+v20:75 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\hl2\mapsrc\sdk_lightmaps1.bsp
+v20:79 - E:\DiskD\ProgramsValve\gcfscape\vmex\projects\sdk\cstrike\mapsrc\sdk_lightmaps.bsp
+v20:174 - E:\Program Files (x86)\Steam\steamapps\common\sourcesdk_content\tf\mvm\mvm_example.bsp
