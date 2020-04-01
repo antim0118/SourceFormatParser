@@ -34,6 +34,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,11 +50,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SourceBSPParser\SourceBSPParser.csproj">
       <Project>{8fc73e7e-49dd-4aa3-9433-3508d19f4780}</Project>
       <Name>SourceBSPParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SourceCommon\SourceCommon.csproj">
+      <Project>{e5ddfe24-7fc3-452a-a2c6-1a2f28ba5814}</Project>
+      <Name>SourceCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SourceKVParser\SourceKVParser.csproj">
+      <Project>{336bdf3c-7269-403f-b1f5-22987ccbb0aa}</Project>
+      <Name>SourceKVParser</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-| version:revision - path
+| [info]:version:revision - path
 
 
 
@@ -92,6 +92,29 @@ v20:4781 - E:\Games\Counter-Strike Source\cstrike\maps\cs_militia.bsp
 v20:51 - E:\Games\Counter-Strike Source\cstrike\maps\de_train_csgo.bsp
 v20:553 - E:\Games\Counter-Strike Source\cstrike\maps\de_dust2.bsp
 v20:961 - E:\Games\Counter-Strike Source\cstrike\maps\de_mirage_cs1.6.bsp
+
+
+
+| ===========================================
+| CS:GO for PS3 :)
+| ===========================================
+csgops3:v21:1428 - E:\!csgo_ps3_assets\maps\ar_baggage.ps3.bsp
+csgops3:v21:1729 - E:\!csgo_ps3_assets\maps\ar_shoots.ps3.bsp
+csgops3:v21:2855 - E:\!csgo_ps3_assets\maps\cs_italy.ps3.bsp
+csgops3:v21:3658 - E:\!csgo_ps3_assets\maps\cs_office.ps3.bsp
+csgops3:v21:2826 - E:\!csgo_ps3_assets\maps\de_aztec.ps3.bsp
+csgops3:v21:2979 - E:\!csgo_ps3_assets\maps\de_bank.ps3.bsp
+csgops3:v21:3499 - E:\!csgo_ps3_assets\maps\de_dust.ps3.bsp
+csgops3:v21:2241 - E:\!csgo_ps3_assets\maps\de_dust2.ps3.bsp
+csgops3:v21:6120 - E:\!csgo_ps3_assets\maps\de_inferno.ps3.bsp
+csgops3:v21:4814 - E:\!csgo_ps3_assets\maps\de_lake.ps3.bsp
+csgops3:v21:2710 - E:\!csgo_ps3_assets\maps\de_nuke.ps3.bsp
+csgops3:v21:2387 - E:\!csgo_ps3_assets\maps\de_safehouse.ps3.bsp
+csgops3:v21:3027 - E:\!csgo_ps3_assets\maps\de_shorttrain.ps3.bsp
+csgops3:v21:4022 - E:\!csgo_ps3_assets\maps\de_stmarc.ps3.bsp
+csgops3:v21:2830 - E:\!csgo_ps3_assets\maps\de_sugarcane.ps3.bsp
+csgops3:v21:3232 - E:\!csgo_ps3_assets\maps\de_train.ps3.bsp
+csgops3:v21:4196 - E:\!csgo_ps3_assets\maps\training1.ps3.bsp
 
 
 
@@ -191,7 +214,6 @@ v19:58 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\maps\sdk_
 v19:14 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\credits.bsp
 v20:2557 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_background01.bsp
 v20:2881 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_citadel_00.bsp
-v20:738560 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_citadel_00_demo.bsp
 v20:9323 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_background02.bsp
 v20:9624 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_c17_01.bsp
 v20:9743 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\episodic\maps\ep1_c17_01a.bsp
@@ -383,7 +405,6 @@ v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offe
 v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_water.bsp
 v21:422 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1941239302\blast_performance.bsp
 v21:428 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1322544593\aim_gamerz.bsp
-v21:4411 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_breach.bsp
 v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1579290805\retakes_inferno_b.bsp
 v21:4539 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\241148414\training_aim_csgo2_dark.bsp
 v21:48 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo_stream.bsp
@@ -401,7 +422,6 @@ v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Off
 v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\368026786\aimtraindriving_sf.bsp
 v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_3dskybox.bsp
 v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\943491697\de_prodigy_d.bsp
-v21:734 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_studio.bsp
 v21:749 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1873758261\tes_aim.bsp
 v21:750 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\703668900\tr_situation2.bsp
 v21:79 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\132434038\ak-47_map_csgo.bsp
@@ -439,20 +459,20 @@ v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offe
 | ===========================================
 | L4D2
 | ===========================================
-v21:10 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\curling_stadium.bsp
-v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m1_hotel.bsp
-v21:138 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards.bsp
-v21:177 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards_vs.bsp
-v21:2 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m4_atrium.bsp
-v21:21 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m3_mall.bsp
-v21:26 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\credits.bsp
-v21:96 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c5m5_bridge.bsp
-v21:29 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c7m3_port.bsp
-v21:7351 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c8m3_sewers.bsp
-v21:2034 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m1_alpinecreek.bsp
-v21:27 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m3_memorialbridge.bsp
-v21:4252 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c12m3_bridge.bsp
-v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c10m4_mainstreet.bsp
+l4d2:v21:10 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\curling_stadium.bsp
+l4d2:v21:12 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m1_hotel.bsp
+l4d2:v21:138 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards.bsp
+l4d2:v21:177 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\tutorial_standards_vs.bsp
+l4d2:v21:2 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m4_atrium.bsp
+l4d2:v21:21 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c1m3_mall.bsp
+l4d2:v21:26 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\credits.bsp
+l4d2:v21:96 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2\maps\c5m5_bridge.bsp
+l4d2:v21:29 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c7m3_port.bsp
+l4d2:v21:7351 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc2\maps\c8m3_sewers.bsp
+l4d2:v21:2034 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m1_alpinecreek.bsp
+l4d2:v21:27 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c13m3_memorialbridge.bsp
+l4d2:v21:4252 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c12m3_bridge.bsp
+l4d2:v21:9 - E:\Program Files (x86)\Steam\steamapps\common\Left 4 Dead 2\left4dead2_dlc3\maps\c10m4_mainstreet.bsp
 
 
 | ===========================================

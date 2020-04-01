@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8FC73E7E-49DD-4AA3-9433-3508D19F4780}</ProjectGuid>
+    <ProjectGuid>{C93929AD-D2A7-4C17-850F-A3F65713F536}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SourceBSPParser</RootNamespace>
-    <AssemblyName>SourceBSPParser</AssemblyName>
+    <RootNamespace>BinaryForBigEndian</RootNamespace>
+    <AssemblyName>BinaryForBigEndian</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,28 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BigBinaryReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SourceBSP.cs" />
-    <Compile Include="SourceBSPStructs.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bsptest.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BinaryForBigEndian\BinaryForBigEndian.csproj">
-      <Project>{c93929ad-d2a7-4c17-850f-a3f65713f536}</Project>
-      <Name>BinaryForBigEndian</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SourceCommon\SourceCommon.csproj">
-      <Project>{e5ddfe24-7fc3-452a-a2c6-1a2f28ba5814}</Project>
-      <Name>SourceCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SourceKVParser\SourceKVParser.csproj">
-      <Project>{336bdf3c-7269-403f-b1f5-22987ccbb0aa}</Project>
-      <Name>SourceKVParser</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

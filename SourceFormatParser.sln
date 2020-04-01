@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceBSPParser", "SourceBS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceBSPTest", "SourceBSPTest\SourceBSPTest.csproj", "{13D033B4-236B-4B41-A514-0A84489A5214}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceKVParser", "SourceKVParser\SourceKVParser.csproj", "{336BDF3C-7269-403F-B1F5-22987CCBB0AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceCommon", "SourceCommon\SourceCommon.csproj", "{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryForBigEndian", "BinaryForBigEndian\BinaryForBigEndian.csproj", "{C93929AD-D2A7-4C17-850F-A3F65713F536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{13D033B4-236B-4B41-A514-0A84489A5214}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D033B4-236B-4B41-A514-0A84489A5214}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D033B4-236B-4B41-A514-0A84489A5214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336BDF3C-7269-403F-B1F5-22987CCBB0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336BDF3C-7269-403F-B1F5-22987CCBB0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336BDF3C-7269-403F-B1F5-22987CCBB0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336BDF3C-7269-403F-B1F5-22987CCBB0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93929AD-D2A7-4C17-850F-A3F65713F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93929AD-D2A7-4C17-850F-A3F65713F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93929AD-D2A7-4C17-850F-A3F65713F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93929AD-D2A7-4C17-850F-A3F65713F536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

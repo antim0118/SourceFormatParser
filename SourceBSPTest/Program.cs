@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 
 namespace SourceFormatParser.BSP.SourceBSPTest
@@ -14,6 +15,8 @@ namespace SourceFormatParser.BSP.SourceBSPTest
             int s = 0;
             try { s = int.Parse(Console.ReadLine()); } catch { }
             Console.Clear();
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
 
             string path;
             switch (s)
@@ -38,19 +41,33 @@ namespace SourceFormatParser.BSP.SourceBSPTest
                 case 2:
                     string[] lines = File.ReadAllLines("bsptest.txt");
                     int tested = 0, successfullytested = 0;
-                    foreach(string l in lines)
+                    foreach (string m in lines)
                     {
-                        if (l.Length <= 1 || l.StartsWith("|")) continue;
-                        path = l.Split(new string[] { " - " }, StringSplitOptions.None)[1];
+                        if (m.Length <= 1 || m.StartsWith("|")) continue;
+
+                        string[] _spl = m.Split(new string[] { " - " }, StringSplitOptions.None);
+                        string[] _spl0 = _spl[0].Split(':');
+                        path = _spl[1];
+
+                        string info = string.Empty;
+                        if (_spl0.Length == 3)
+                            info = _spl0[0];
+
                         try
                         {
-                            SourceBSP bsp = new SourceBSP(path);
+                            SourceBSP bsp;
+                            if (info == "l4d2")
+                                bsp = new SourceBSP(path, SourceBSP.SourceGame.Left4Dead2);
+                            else if (info == "csgops3")
+                                continue; //i will make it later, mb
+                                //bsp = new SourceBSP(path, SourceBSP.SourceGame.CSGO_PS3);
+                            else
+                                bsp = new SourceBSP(path);
+
                             successfullytested++;
                         }
-                        catch(Exception ex)
-                        {
-                            Console.WriteLine($"ERROR: {ex.Message} - {path}");
-                        }
+                        catch (Exception ex) { Console.WriteLine(ex.Message); }
+
                         tested++;
                     }
                     Console.WriteLine($"Tested: {successfullytested}/{tested}");
@@ -60,7 +77,8 @@ namespace SourceFormatParser.BSP.SourceBSPTest
                     break;
             }
 
-            Console.Write("END");
+            sw.Stop();
+            Console.Write($"Ended in {sw.ElapsedMilliseconds}ms");
             Console.ReadLine();
         }
 
