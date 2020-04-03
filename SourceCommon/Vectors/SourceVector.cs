@@ -2,7 +2,7 @@
 {
     /// <summary>
     /// Vector x/y/z (float)
-    /// Size: 12 bytes
+    /// Size: 12 bytes (4 bytes per axis)
     /// </summary>
     public struct SourceVector
     {

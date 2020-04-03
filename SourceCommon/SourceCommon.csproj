@@ -44,10 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorConversion.cs" />
+    <Compile Include="ColorRGBExp32.cs" />
+    <Compile Include="CompressedLightCube.cs" />
     <Compile Include="Define.cs" />
+    <Compile Include="FlagsUtils.cs" />
     <Compile Include="ParsingUtils.cs" />
-    <Compile Include="SourceVector.cs" />
+    <Compile Include="Vectors\SourceVector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vectors\SourceVector2Int.cs" />
+    <Compile Include="Vectors\SourceVector2Short.cs" />
+    <Compile Include="Vectors\SourceVector4.cs" />
+    <Compile Include="Vectors\SourceVectorShort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

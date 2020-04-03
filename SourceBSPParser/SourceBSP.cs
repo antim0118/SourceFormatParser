@@ -19,10 +19,11 @@ namespace SourceFormatParser.BSP
         #region Public variables
         public Structs.dheader_t Header;
 
-        /// <summary>
-        /// assigned by parser
-        /// </summary>
         public SourceGame Game;
+
+        //both can be true, both can be false.
+        public bool isHDR => (MapFlags.m_LevelFlags & (uint)MAP_FLAGS.LVLFLAGS_BAKED_STATIC_PROP_LIGHTING_HDR) != 0;
+        public bool isLDR => (MapFlags.m_LevelFlags & (uint)MAP_FLAGS.LVLFLAGS_BAKED_STATIC_PROP_LIGHTING_NONHDR) != 0;
         #endregion
         #region Private variables
         BinaryReader BR;
@@ -111,9 +112,10 @@ namespace SourceFormatParser.BSP
                 if (Game == SourceGame.Left4Dead2)
                     lumps[l] = new Structs.lump_t
                     {
-                        filelen = BR.ReadInt32(),
-                        fileofs = BR.ReadInt32(),
                         version = BR.ReadInt32(),
+                        
+                        fileofs = BR.ReadInt32(),
+                        filelen = BR.ReadInt32(),
                         uncompressedSize = BR.ReadInt32(),
 
                         lumpNum = l
@@ -168,7 +170,7 @@ namespace SourceFormatParser.BSP
                         break;
                     }
                 }
-                string debug_text = $"[Lump #{lump.lumpNum}] Wrong count" + (nearMin != -1 || nearMax != -1 ? $" ({nearMin}; {nearMax})" : "");
+                string debug_text = $"[Lump #{lump.lumpNum}:v{lump.version}] Wrong count" + (nearMin != -1 || nearMax != -1 ? $" ({nearMin}; {nearMax})" : "");
 #if UNITY
                 Debug.Log(debug_text);
 #else
@@ -211,7 +213,7 @@ namespace SourceFormatParser.BSP
         #region Lump #1: Planes
         private dplane_t[] _planes;
         /// <summary>
-        /// Lump #1. 
+        /// Lump #1.  
         /// Purpose: [not sure] Calculations for movement (if player can collide with walls?)
         /// </summary>
         public dplane_t[] Planes
@@ -386,6 +388,526 @@ namespace SourceFormatParser.BSP
                     __visibility = true;
                 }
                 return _visibility;
+            }
+        }
+        #endregion
+
+        #region Lump #5: Nodes
+        private dnode_t[] _nodes;
+        /// <summary>
+        /// Lump #5. 
+        /// Purpose: [not sure] to determine player's position for visibility optimisation?
+        /// </summary>
+        public dnode_t[] Nodes
+        {
+            get
+            {
+                if (_nodes == null)
+                {
+                    lump_t lump = SetLump(5);
+                    int count = GetLumpCount(lump, 32);
+                    _nodes = new dnode_t[count];
+                    for (int n = 0; n < count; n++)
+                    {
+                        _nodes[n] = new dnode_t
+                        {
+                            planenum = BR.ReadInt32(),
+                            children = BR.ReadInt32Array(2),
+                            mins = BR.ReadVectorShort(),
+                            maxs = BR.ReadVectorShort(),
+                            firstface = BR.ReadUInt16(),
+                            numfaces = BR.ReadUInt16(),
+                            area = BR.ReadInt16(),
+                            //unused = BR.ReadInt16()
+                        };
+                        BR.BaseStream.Seek(2, SeekOrigin.Current);
+                    }
+                }
+                return _nodes;
+            }
+        }
+        #endregion
+
+        #region Lump #6: Texture info (TEXINFO)
+        private texinfo_t[] _texinfo;
+        /// <summary>
+        /// Lump #6. 
+        /// Purpose: texture info. Flags, texture offset, lightmap [offset?], index for texdata.
+        /// </summary>
+        public texinfo_t[] Texinfo
+        {
+            get
+            {
+                if (_texinfo == null)
+                {
+                    lump_t lump = SetLump(6);
+                    int count = GetLumpCount(lump, 72);
+                    _texinfo = new texinfo_t[count];
+                    for (int t = 0; t < count; t++)
+                    {
+                        _texinfo[t] = new texinfo_t
+                        {
+                            textureVecsTexelsPerWorldUnits = new SourceVector4[2] { BR.ReadVector4(), BR.ReadVector4() },
+                            lightmapVecsLuxelsPerWorldUnits = new SourceVector4[2] { BR.ReadVector4(), BR.ReadVector4() },
+                            flags = BR.ReadInt32(),
+                            texdata = BR.ReadInt32()
+                        };
+                    }
+                }
+                return _texinfo;
+            }
+        }
+        #endregion
+
+        #region Lump #7: Faces
+        private dface_t[] _faces;
+        /// <summary>
+        /// Lump #7. Version 1.
+        /// Purpose: datas for rendering.
+        /// Also: Check lump #58 for HDR faces.
+        /// </summary>
+        public dface_t[] Faces
+        {
+            get
+            {
+                if (_faces == null)
+                {
+                    lump_t lump = SetLump(7);
+                    int count = GetLumpCount(lump, 56);
+                    _faces = new dface_t[count];
+                    for (int f = 0; f < count; f++)
+                    {
+                        _faces[f] = new dface_t
+                        {
+                            planenum = BR.ReadUInt16(),
+                            side = BR.ReadByte(),
+                            onNode = BR.ReadByte(),
+                            firstedge = BR.ReadInt32(),
+                            numedges = BR.ReadInt16(),
+                            texinfo = BR.ReadInt16(),
+                            dispinfo = BR.ReadInt16(),
+                            surfaceFogVolumeID = BR.ReadInt16(),
+                            styles = BR.ReadBytes(4),
+                            lightofs = BR.ReadInt32(),
+                            area = BR.ReadSingle(),
+                            m_LightmapTextureMinsInLuxels = BR.ReadVector2Int(),
+                            m_LightmapTextureSizeInLuxels = BR.ReadVector2Int(),
+                            origFace = BR.ReadInt32(),
+                            m_NumPrims = BR.ReadUInt16(),
+                            firstPrimID = BR.ReadUInt16(),
+                            smoothingGroups = BR.ReadUInt32()
+                        };
+                    }
+                }
+                return _faces;
+            }
+        }
+        #endregion
+
+        #region Lump #8: Lighting (LDR)
+        private ColorRGBExp32[] _lighting;
+        /// <summary>
+        /// Lump #8. Version 1.
+        /// Purpose: lightmap colors / shadows.
+        /// Also: Check lump #53 for HDR lighting.
+        /// </summary>
+        public ColorRGBExp32[] Lighting
+        {
+            get
+            {
+                if (_lighting == null)
+                {
+                    lump_t lump = SetLump(8);
+                    int count = GetLumpCount(lump, 4);
+                    _lighting = new ColorRGBExp32[count];
+                    for (int f = 0; f < count; f++)
+                    {
+                        _lighting[f] = BR.ReadColorRGBExp32();
+                    }
+                }
+                return _lighting;
+            }
+        }
+        #endregion
+
+        #region Lump #9: Occlusion
+        private doccluder_t _occlusion;
+        private bool __occlusion;
+        /// <summary>
+        /// Lump #9. Version 1/2.
+        /// Purpose: [not sure] func_occluder entity info for compilation. 
+        /// Usage for data (depending on version): (doccluderdataV?_t[])bsp.Occlusion.data
+        /// </summary>
+        public doccluder_t Occlusion
+        {
+            get
+            {
+                if (!__occlusion)
+                {
+                    lump_t lump = SetLump(9);
+                    if(lump.filelen == 0)
+                    {
+                        __occlusion = true;
+                        return _occlusion;
+                    }
+
+                    _occlusion = new doccluder_t();
+                    _occlusion.count = BR.ReadInt32();
+                    switch (lump.version)
+                    {
+                        case 1:
+                            doccluderdataV1_t[] _o_v1 = new doccluderdataV1_t[_occlusion.count];
+                            for (int o = 0; o < _occlusion.count; o++)
+                                _o_v1[o] = new doccluderdataV1_t
+                                {
+                                    flags = BR.ReadInt32(),
+                                    firstpoly = BR.ReadInt32(),
+                                    polycount = BR.ReadInt32(),
+                                    mins = BR.ReadVector(),
+                                    maxs = BR.ReadVector()
+                                };
+                            _occlusion.data = _o_v1;
+                            break;
+                        case 2:
+                            doccluderdataV2_t[] _o_v2 = new doccluderdataV2_t[_occlusion.count];
+                            for (int o = 0; o < _occlusion.count; o++)
+                                _o_v2[o] = new doccluderdataV2_t
+                                {
+                                    flags = BR.ReadInt32(),
+                                    firstpoly = BR.ReadInt32(),
+                                    polycount = BR.ReadInt32(),
+                                    mins = BR.ReadVector(),
+                                    maxs = BR.ReadVector(),
+                                    area = BR.ReadInt32()
+                                };
+                            _occlusion.data = _o_v2;
+                            break;
+                        default:
+                            __occlusion = true;
+                            throw new NotImplementedException();
+                    }
+
+                    _occlusion.polyDataCount = BR.ReadInt32();
+                    _occlusion.polyData = new doccluderpolydata_t[_occlusion.polyDataCount];
+                    for (int p = 0; p < _occlusion.polyDataCount; p++)
+                    {
+                        _occlusion.polyData[p] = new doccluderpolydata_t
+                        {
+                            firstvertexindex = BR.ReadInt32(),
+                            vertexcount = BR.ReadInt32(),
+                            planenum = BR.ReadInt32()
+                        };
+                    }
+
+                    _occlusion.vertexIndexCount = BR.ReadInt32();
+                    _occlusion.vertexIndices = BR.ReadInt32Array(_occlusion.vertexIndexCount);
+
+                    __occlusion = true;
+                }
+                return _occlusion;
+            }
+        }
+        #endregion
+
+        #region Lump #10: Leafs
+        private object _leafs;
+        private bool __leafs;
+        /// <summary>
+        /// Lump #10. Version 0/1. 
+        /// Purpose: [not sure] to determine player's position for visibility optimisation? 
+        /// Usage (depending on version): (dleafV?_t[])bsp.Leafs
+        /// </summary>
+        public object Leafs
+        {
+            get
+            {
+                if (!__leafs)
+                {
+                    lump_t lump = SetLump(10);
+                    if (lump.filelen == 0)
+                    {
+                        __leafs = true;
+                        return _leafs;
+                    }
+                    int count;
+                    int contents;
+                    short cluster;
+                    uint packed;
+
+                    switch (lump.version)
+                    {
+                        case 0:
+                            count = GetLumpCount(lump, 56);
+                            dleafV0_t[] _l_0 = new dleafV0_t[count];
+                            for (int l = 0; l < count; l++)
+                            {
+                                contents = BR.ReadInt32();
+                                cluster = BR.ReadInt16();
+                                packed = BR.ReadUInt32(); //area:9 and flags:7
+                                _l_0[l] = new dleafV0_t
+                                {
+                                    contents = contents,
+                                    cluster = cluster,
+                                    area = (short)((ushort)(packed << 7) >> 7),
+                                    flags = (short)(packed >> 9),
+                                    mins = BR.ReadVectorShort(),
+                                    maxs = BR.ReadVectorShort(),
+                                    firstleafface = BR.ReadUInt16(),
+                                    numleaffaces = BR.ReadUInt16(),
+                                    firstleafbrush = BR.ReadUInt16(),
+                                    numleafbrushes = BR.ReadUInt16(),
+                                    leafWaterDataID = BR.ReadInt16(),
+                                    m_AmbientLighting = BR.ReadCompressedLightCube()
+                                };
+                            }
+                            _leafs = _l_0;
+                            break;
+                        case 1:
+                            count = GetLumpCount(lump, 32);
+                            dleafV1_t[] _l_1 = new dleafV1_t[count];
+                            for (int l = 0; l < count; l++)
+                            {
+                                contents = BR.ReadInt32();
+                                cluster = BR.ReadInt16();
+                                packed = BR.ReadUInt32(); //area:9 and flags:7
+                                _l_1[l] = new dleafV1_t
+                                {
+                                    contents = contents,
+                                    cluster = cluster,
+                                    area = (short)((ushort)(packed << 7) >> 7),
+                                    flags = (short)(packed >> 9),
+                                    mins = BR.ReadVectorShort(),
+                                    maxs = BR.ReadVectorShort(),
+                                    firstleafface = BR.ReadUInt16(),
+                                    numleaffaces = BR.ReadUInt16(),
+                                    firstleafbrush = BR.ReadUInt16(),
+                                    numleafbrushes = BR.ReadUInt16(),
+                                    leafWaterDataID = BR.ReadInt16()
+                                };
+                            }
+                            _leafs = _l_1;
+                            break;
+                        default:
+                            __leafs = true;
+                            throw new NotImplementedException();
+                    }
+
+                    
+                    __leafs = true;
+                }
+                return _leafs;
+            }
+        }
+        #endregion
+
+        #region Lump #11: Face IDs
+        private dfaceid_t[] _faceids;
+        /// <summary>
+        /// Lump #11. 
+        /// Purpose: Face IDs from Valve Hammer Editor. Should equal Faces lump count.
+        /// </summary>
+        public dfaceid_t[] FaceIDs
+        {
+            get
+            {
+                if (_faceids == null)
+                {
+                    lump_t lump = SetLump(11);
+                    int count = GetLumpCount(lump, 2);
+                    _faceids = new dfaceid_t[count];
+                    for (int f = 0; f < count; f++)
+                    {
+                        _faceids[f] = new dfaceid_t { hammerfaceid = BR.ReadUInt16() };
+                    }
+                }
+                return _faceids;
+            }
+        }
+        #endregion
+
+        #region Lump #12: Edges
+        private dedge_t[] _edges;
+        /// <summary>
+        /// Lump #12. 
+        /// Purpose: vertex indices for faces
+        /// </summary>
+        public dedge_t[] Edges
+        {
+            get
+            {
+                if (_edges == null)
+                {
+                    lump_t lump = SetLump(12);
+                    int count = GetLumpCount(lump, 4);
+                    _edges = new dedge_t[count];
+                    for (int e = 0; e < count;e++)
+                    {
+                        _edges[e] = new dedge_t { v = BR.ReadVector2Short() };
+                    }
+                }
+                return _edges;
+            }
+        }
+        #endregion
+
+        #region Lump #13: Surface edges (SURFEDGE)
+        private int[] _surfedge;
+        /// <summary>
+        /// Lump #13. 
+        /// Purpose: Faces.firstedge/numedges (e) ->| Surfedge[e] (s) ->| Edges[s].
+        /// </summary>
+        public int[] SurfEdge
+        {
+            get
+            {
+                if (_surfedge == null)
+                {
+                    lump_t lump = SetLump(13);
+                    int count = GetLumpCount(lump, 4);
+                    _surfedge = BR.ReadInt32Array(count);
+                }
+                return _surfedge;
+            }
+        }
+        #endregion
+
+        #region Lump #14: Models
+        private dmodel_t[] _models;
+        /// <summary>
+        /// Lump #14. 
+        /// Purpose: Brushes for rendering (mostly). [0] is global, [1 and more] are entities (func_brush/func_detail)
+        /// </summary>
+        public dmodel_t[] Models
+        {
+            get
+            {
+                if (_models == null)
+                {
+                    lump_t lump = SetLump(14);
+                    int count = GetLumpCount(lump, 48);
+                    _models = new dmodel_t[count];
+                    for (int m = 0; m < count; m++)
+                    {
+                        _models[m] = new dmodel_t
+                        {
+                            mins = BR.ReadVector(),
+                            maxs = BR.ReadVector(),
+                            origin = BR.ReadVector(),
+                            headnode = BR.ReadInt32(),
+                            firstface = BR.ReadInt32(),
+                            numfaces = BR.ReadInt32()
+                        };
+                    }
+                }
+                return _models;
+            }
+        }
+        #endregion
+
+        #region Lump #15: World lights
+        private object _worldlights;
+        /// <summary>
+        /// Lump #15. Version 0/1. 
+        /// Purpose: Contains info about static lights (NOT LIGHTMAPS). 
+        /// Usage (depending on version): (dworldlightV?_t)bsp.WorldLights
+        /// </summary>
+        public object WorldLights
+        {
+            get
+            {
+                if (_worldlights == null)
+                {
+                    lump_t lump = SetLump(15);
+                    int count;
+                    switch (lump.version)
+                    {
+                        case 0:
+                            count = GetLumpCount(lump, 88);
+                            dworldlightV0_t[] _wl_0 = new dworldlightV0_t[count];
+                            for (int wl = 0; wl < count; wl++)
+                            {
+                                _wl_0[wl] = new dworldlightV0_t
+                                {
+                                    origin = BR.ReadVector(),
+                                    intensity = BR.ReadVector(),
+                                    normal = BR.ReadVector(),
+                                    cluster = BR.ReadInt32(),
+                                    type = (emittype_t)BR.ReadUInt32(),
+                                    style = BR.ReadInt32(),
+                                    stopdot = BR.ReadSingle(),
+                                    stopdot2 = BR.ReadSingle(),
+                                    exponent = BR.ReadSingle(),
+                                    radius = BR.ReadSingle(),
+                                    constant_attn = BR.ReadSingle(),
+                                    linear_attn = BR.ReadSingle(),
+                                    quadratic_attn = BR.ReadSingle(),
+                                    flags = BR.ReadInt32(),
+                                    texinfo = BR.ReadInt32(),
+                                    owner = BR.ReadInt32()
+                                };
+                            }
+                            _worldlights = _wl_0;
+                            break;
+                        case 1:
+                            count = GetLumpCount(lump, 100);
+                            dworldlightV1_t[] _wl_1 = new dworldlightV1_t[count];
+                            for (int wl = 0; wl < count; wl++)
+                            {
+                                _wl_1[wl] = new dworldlightV1_t
+                                {
+                                    origin = BR.ReadVector(),
+                                    intensity = BR.ReadVector(),
+                                    normal = BR.ReadVector(),
+                                    shadow_cast_offset = BR.ReadVector(),
+                                    cluster = BR.ReadInt32(),
+                                    type = (emittype_t)BR.ReadUInt32(),
+                                    style = BR.ReadInt32(),
+                                    stopdot = BR.ReadSingle(),
+                                    stopdot2 = BR.ReadSingle(),
+                                    exponent = BR.ReadSingle(),
+                                    radius = BR.ReadSingle(),
+                                    constant_attn = BR.ReadSingle(),
+                                    linear_attn = BR.ReadSingle(),
+                                    quadratic_attn = BR.ReadSingle(),
+                                    flags = BR.ReadInt32(),
+                                    texinfo = BR.ReadInt32(),
+                                    owner = BR.ReadInt32()
+                                };
+                            }
+                            _worldlights = _wl_1;
+                            break;
+                        default:
+                            throw new NotImplementedException();
+                    }
+                    
+                }
+                return _worldlights;
+            }
+        }
+        #endregion
+
+        #region Lump #59: Map flags
+        private dflagslump_t _mapflags;
+        private bool __mapflags;
+        /// <summary>
+        /// Lump #59. 
+        /// Purpose: Map compilation flags.
+        /// </summary>
+        public dflagslump_t MapFlags
+        {
+            get
+            {
+                if (!__mapflags)
+                {
+                    lump_t lump = SetLump(59);
+                    _mapflags = new dflagslump_t
+                    {
+                        m_LevelFlags = BR.ReadUInt32()
+                    };
+
+                    __mapflags = true;
+                }
+                return _mapflags;
             }
         }
         #endregion
