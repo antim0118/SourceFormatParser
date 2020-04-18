@@ -66,6 +66,7 @@ namespace SourceFormatParser.BSP.SourceBSPTest
 
                             successfullytested++;
                         }
+                        catch (OutOfMemoryException ex) { Console.WriteLine(ex.Message); }
                         catch (Exception ex) { Console.WriteLine(ex.Message); }
 
                         tested++;

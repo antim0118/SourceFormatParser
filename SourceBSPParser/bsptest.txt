@@ -345,14 +345,12 @@ v21:3907 - E:\Games\!CSGOServer\sv\csgo\maps\cs_agency.bsp
 v21:4139 - E:\Games\!CSGOServer\sv\csgo\maps\de_stmarc.bsp
 v21:4175 - E:\Games\!CSGOServer\sv\csgo\maps\coop_kasbah.bsp
 v21:4176 - E:\Games\!CSGOServer\sv\csgo\maps\cs_assault.bsp
-v21:4396 - E:\Games\!CSGOServer\sv\csgo\maps\de_breach.bsp
 v21:4644 - E:\Games\!CSGOServer\sv\csgo\maps\de_canals.bsp
 v21:4874 - E:\Games\!CSGOServer\sv\csgo\maps\de_lake.bsp
 v21:488 - E:\Games\!CSGOServer\sv\csgo\maps\gd_rialto.bsp
 v21:4970 - E:\Games\!CSGOServer\sv\csgo\maps\de_cbble.bsp
 v21:5057 - E:\Games\!CSGOServer\sv\csgo\maps\gd_cbble.bsp
 v21:648 - E:\Games\!CSGOServer\sv\csgo\maps\training1.bsp
-v21:729 - E:\Games\!CSGOServer\sv\csgo\maps\de_studio.bsp
 v21:8507 - E:\Games\!CSGOServer\sv\csgo\maps\dz_junglety.bsp
 v21:103 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\unity_test.bsp
 v21:107 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\122443683\aim_map.bsp
@@ -397,8 +395,6 @@ v21:3 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offe
 v21:30 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\antim_challenge.bsp
 v21:30 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_controller.bsp
 v21:327 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\surf_monolith.bsp
-v21:34365 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1855851320\de_cache.bsp
-v21:365 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1974238958\the_clukva_d.bsp
 v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_bigladder.bsp
 v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_lightdisplacements.bsp
 v21:4 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_shadow2.bsp
@@ -408,9 +404,7 @@ v21:428 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Of
 v21:45 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1579290805\retakes_inferno_b.bsp
 v21:4539 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\241148414\training_aim_csgo2_dark.bsp
 v21:48 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_vertigo_stream.bsp
-v21:48 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1357956676\eto_me_map_666.bsp
 v21:488 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\647772108\tr_reflex_remake_v4-d2_hr.bsp
-v21:493 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\2010240603\ilia3.bsp
 v21:53 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1222094548\yprac_mirage.bsp
 v21:579 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\500334237\fps_benchmark.bsp
 v21:584 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1769156337\komplett_course.bsp
@@ -418,7 +412,6 @@ v21:6 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offe
 v21:60 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1767808189\retakes_vertigo.bsp
 v21:6622 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\coop_kasbah.bsp
 v21:669 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\de_textured_city_antim.bsp
-v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\1506437439\am_dusty.bsp
 v21:69 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\368026786\aimtraindriving_sf.bsp
 v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\test_3dskybox.bsp
 v21:7 - E:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\maps\workshop\943491697\de_prodigy_d.bsp
