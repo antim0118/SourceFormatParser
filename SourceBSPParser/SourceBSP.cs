@@ -887,7 +887,7 @@ namespace SourceFormatParser.BSP
         private ushort[] _leaffaces;
         /// <summary>
         /// Lump #16. 
-        /// Purpose: "which are used to map from faces referenced in the leaf structure to indices in the face array", from Valve Dev Wiki. 
+        /// Purpose: "... which are used to map from faces referenced in the leaf structure to indices in the face array", from Valve Dev Wiki. 
         /// </summary>
         public ushort[] LeafFaces
         {
@@ -2011,7 +2011,7 @@ namespace SourceFormatParser.BSP
         private dprimitive_t[] _primitives;
         /// <summary>
         /// Lump #37. 
-        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki
+        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki. 
         /// </summary>
         public dprimitive_t[] Primitives
         {
@@ -2044,7 +2044,7 @@ namespace SourceFormatParser.BSP
         private SourceVector[] _primverts;
         /// <summary>
         /// Lump #38. 
-        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki
+        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki. 
         /// </summary>
         public SourceVector[] PrimVerts
         {
@@ -2068,7 +2068,7 @@ namespace SourceFormatParser.BSP
         private ushort[] _primindices;
         /// <summary>
         /// Lump #39. 
-        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki
+        /// Purpose: "are used in reference to /non-polygonal primitives/", from Valve Dev Wiki. 
         /// </summary>
         public ushort[] Primindices
         {
@@ -2305,12 +2305,12 @@ namespace SourceFormatParser.BSP
         }
         #endregion
 
-        #region Lump #49 : 2004/2009 - not tested: can't find structs for this lump
+        #region Lump #49 : 2004/2009 - not implemented: can't find structs for this lump
         #region Lump #49/1: Compressed physics collision data (PHYSCOLLIDESURFACE) [Source 2004]
         private object _physcollidesurface;
         /// <summary>
         /// Lump #49. 
-        /// Purpose: "deprecated.  We no longer use win32-specific havok compression on terrain", from Source 2013 code. 
+        /// Purpose: "deprecated. We no longer use win32-specific havok compression on terrain", from Source 2013 code. 
         /// </summary>
         public object PhysCollideSurface
         {
@@ -2691,7 +2691,7 @@ namespace SourceFormatParser.BSP
         }
         #endregion
 
-        #region Lump #57: XZIP PAK file (for XBOX) - not tested: can't find structs for this lump (mb it's a byte array)
+        #region Lump #57: XZIP PAK file (for XBOX) - not implemented: can't find structs for this lump (mb it's a byte array)
         private object _xzippakfile;
         /// <summary>
         /// Lump #57. 
