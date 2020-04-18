@@ -14,7 +14,7 @@
 | 10 | LUMP_LEAFS | [not sure] to determine player's position for visibility optimisation?  | ✅Yes |
 | 11 | LUMP_FACEIDS | Face IDs from Valve Hammer Editor. Should equal Faces lump count | ✅Yes |
 | 12 | LUMP_EDGES | vertex indices for faces | ✅Yes |
-| 13 | LUMP_SURFEDGES | Faces.firstedge/numedges (e) ->| Surfedge[e] (s) ->| Edges[s] | ✅Yes |
+| 13 | LUMP_SURFEDGES | Faces.firstedge/numedges (e) -> Surfedge[e] (s) -> Edges[s] | ✅Yes |
 | 14 | LUMP_MODELS | Brushes for rendering (mostly). [0] is global, [1 and more] are entities (func_brush/func_detail) | ✅Yes |
 | 15 | LUMP_WORLDLIGHTS | Contains info about static lights (NOT LIGHTMAPS) | ✅Yes |
 | 16 | LUMP_LEAFFACES | "... which are used to map from faces referenced in the leaf structure to indices in the face array", from Valve Dev Wiki | ✅Yes |
