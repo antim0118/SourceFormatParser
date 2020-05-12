@@ -232,25 +232,6 @@ v20:5421 - E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\lostcoast\m
 
 
 | ===========================================
-| HL2/EP1/EP2 :Mmod
-| ===========================================
-v20:149 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d2_prison_05.bsp
-v20:1556 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d2_coast_03.bsp
-v20:166 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d3_citadel_03.bsp
-v20:5898 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_trainstation_01.bsp
-v20:687 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_town_01.bsp
-v20:704 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\d1_canals_10.bsp
-v20:706 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_HL2\maps\test.bsp
-v20:244 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\ep1_c17_00a.bsp
-v20:261 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\ep1_citadel_03.bsp
-v20:795 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP1\maps\test.bsp
-v20:120 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\ep2_outland_03.bsp
-v20:187 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\ep2_outland_11a.bsp
-v20:547 - E:\Program Files (x86)\Steam\steamapps\sourcemods\HL2MMod_Cinematic_EP2\maps\test.bsp
-
-
-
-| ===========================================
 | KreedzClimbing, kz maps
 | ===========================================
 v20:10 - E:\Program Files (x86)\Steam\steamapps\common\KreedzClimbing\kz\maps\kz_beginnerblock.bsp

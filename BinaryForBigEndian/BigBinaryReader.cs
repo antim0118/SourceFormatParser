@@ -10,7 +10,7 @@ namespace SourceFormatParser.BigEndian
 
         public override byte[] ReadBytes(int count)
         {
-            var data = base.ReadBytes(count);
+            byte[] data = base.ReadBytes(count);
             Array.Reverse(data);
             return data;
         }

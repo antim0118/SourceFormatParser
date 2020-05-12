@@ -1,0 +1,34 @@
+| assets paths to models dir
+| path###comment
+
+
+E:\Games\Counter-Strike_Source_v34_NoSteam\cstrike\models###css v34
+E:\Games\Counter-Strike_Source_v34_NoSteam\hl2\models###css v34
+E:\Games\Counter-Strike Source\cstrike\models###css v34, may contain custom models
+
+E:\!csgoassets\models###unpacked csgo dirs
+| E:\!csgo_ps3_assets\models###csgo for ps3 - UNSUPPORTED
+
+E:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\models###gmod
+E:\Program Files (x86)\Steam\steamapps\sourcemods\gmod9.0.4c\models###gmod 9.0.4c
+
+E:\Games\The Stanley Parable\thestanleyparable\models###the stanley parable
+
+E:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\models###hl2 dev models?
+E:\!valve_assets\hl2_models###hl2 unpacked
+E:\!valve_assets\episodic_models###hl2 ep1 unpacked
+E:\!valve_assets\ep2_models###hl2 ep2 unpacked
+E:\!valve_assets\lostcoast_models###hl2 LC unpacked
+
+E:\!valve_assets\portal_models###portal unpacked
+E:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2007\portalbeta\models###portal beta
+E:\!valve_assets\portal2_models###portal 2 unpacked
+E:\!valve_assets\portal2_dlc1_models###portal 2: dlc#1 unpacked
+E:\!valve_assets\portal2_dlc2_models###portal 2: dlc#2 unpacked
+
+E:\!valve_assets\blackmesa_models###black mesa unpacked
+
+E:\!valve_assets\left4dead2_models###l4d2 unpacked
+E:\!valve_assets\left4dead2_dlc1_models###l4d2: dlc1 unpacked
+E:\!valve_assets\left4dead2_dlc2_models###l4d2: dlc2 unpacked
+E:\!valve_assets\left4dead2_dlc3_models###l4d2: dlc3 unpacked

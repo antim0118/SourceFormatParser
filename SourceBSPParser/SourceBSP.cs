@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using static SourceFormatParser.BSP.SourceBSPStructs;
-using Structs = SourceFormatParser.BSP.SourceBSPStructs;
 using static SourceFormatParser.Common.ParsingUtils;
 using SourceFormatParser.BigEndian;
 using SourceFormatParser.Common;
@@ -11,13 +10,13 @@ using SourceFormatParser.Common;
 namespace SourceFormatParser.BSP
 {
     /// <summary>
-    /// Supported version: 17+
+    /// Supported version: 17+ / 
     /// Tested on versions: 19-21
     /// </summary>
     public class SourceBSP : IDisposable
     {
         #region Public variables
-        public Structs.dheader_t Header;
+        public dheader_t Header;
 
         public SourceGame Game;
 
@@ -90,12 +89,10 @@ namespace SourceFormatParser.BSP
         {
             BR.BaseStream.Seek(0, SeekOrigin.Begin);
             int id = BR.ReadInt32();
-            BR.BaseStream.Seek(0, SeekOrigin.Begin);
-            char[] idc = BR.ReadChars(4);
             if (id != IDBSPHEADER)
                 throw new Exception("Not a BSP file! (wrong id)");
 
-            Header = new Structs.dheader_t
+            Header = new dheader_t
             {
                 ident = id,
                 version = BR.ReadInt32(),
@@ -104,13 +101,13 @@ namespace SourceFormatParser.BSP
             };
         }
 
-        Structs.lump_t[] ParseLumps()
+        lump_t[] ParseLumps()
         {
-            Structs.lump_t[] lumps = new Structs.lump_t[Structs.HEADER_LUMPS];
-            for (int l = 0; l < Structs.HEADER_LUMPS; l++)
+            lump_t[] lumps = new lump_t[HEADER_LUMPS];
+            for (int l = 0; l < HEADER_LUMPS; l++)
             {
                 if (Game == SourceGame.Left4Dead2)
-                    lumps[l] = new Structs.lump_t
+                    lumps[l] = new lump_t
                     {
                         version = BR.ReadInt32(),
                         
@@ -121,7 +118,7 @@ namespace SourceFormatParser.BSP
                         lumpNum = l
                     };
                 else
-                    lumps[l] = new Structs.lump_t
+                    lumps[l] = new lump_t
                     {
                         fileofs = BR.ReadInt32(),
                         filelen = BR.ReadInt32(),

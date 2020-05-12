@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5DDFE24-7FC3-452A-A2C6-1A2F28BA5814}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SourceCommon</RootNamespace>
-    <AssemblyName>SourceCommon</AssemblyName>
+    <ProjectGuid>{29D1F512-FBD2-4B50-A53F-CF346286435D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SourceMDLTest</RootNamespace>
+    <AssemblyName>SourceMDLTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,9 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,32 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorConversion.cs" />
-    <Compile Include="ColorRGBExp32.cs" />
-    <Compile Include="CompressedLightCube.cs" />
-    <Compile Include="DebugLog.cs" />
-    <Compile Include="Define.cs" />
-    <Compile Include="FlagsUtils.cs" />
-    <Compile Include="MathUtils.cs" />
-    <Compile Include="ParsingUtils.cs" />
-    <Compile Include="SourceColor32.cs" />
-    <Compile Include="Vectors\SourceCTransform.cs" />
-    <Compile Include="Vectors\SourceDegreeEuler.cs" />
-    <Compile Include="Vectors\SourceMatrix3x4.cs" />
-    <Compile Include="Vectors\SourceQAngle.cs" />
-    <Compile Include="LightUtils.cs" />
-    <Compile Include="Vectors\SourceQuaternion.cs" />
-    <Compile Include="Vectors\SourceRadianEuler.cs" />
-    <Compile Include="Vectors\SourceVector.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vectors\SourceVector2.cs" />
-    <Compile Include="Vectors\SourceVector2Int.cs" />
-    <Compile Include="Vectors\SourceVector2Short.cs" />
-    <Compile Include="Vectors\SourceVector4.cs" />
-    <Compile Include="Vectors\SourceVectorShort.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mdltest.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SourceCommon\SourceCommon.csproj">
+      <Project>{e5ddfe24-7fc3-452a-a2c6-1a2f28ba5814}</Project>
+      <Name>SourceCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SourceMDLParser\SourceMDLParser.csproj">
+      <Project>{2659e66c-35fc-45b7-a2b7-6fd154ae4e8e}</Project>
+      <Name>SourceMDLParser</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

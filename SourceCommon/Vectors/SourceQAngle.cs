@@ -47,6 +47,38 @@ namespace SourceFormatParser.Common
 			return new SourceQAngle(v.x * oofl, v.y * oofl, v.z * oofl);
 		}
 
+		public float this[int i]
+		{
+			get
+			{
+				switch (i)
+				{
+					case 0:
+						return x;
+					case 1:
+						return y;
+					case 2:
+						return z;
+				}
+				throw new Exception("wrong index");
+			}
+			set
+			{
+				switch (i)
+				{
+					case 0:
+						x = value;
+						break;
+					case 1:
+						y = value;
+						break;
+					case 2:
+						z = value;
+						break;
+				}
+			}
+		}
+
 		// Get the vector's magnitude.
 		public float Length() => (float)Math.Sqrt(LengthSqr());
 		public float LengthSqr() => x * x + y * y + z * z;

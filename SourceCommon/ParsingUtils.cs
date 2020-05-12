@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Text;
 
 namespace SourceFormatParser.Common
 {
@@ -12,6 +13,10 @@ namespace SourceFormatParser.Common
         public static SourceVector4 ReadVector4(this BinaryReader BR) => new SourceVector4(BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle());
 
         public static SourceQAngle ReadQAngle(this BinaryReader BR) => new SourceQAngle(BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle());
+        public static SourceQuaternion ReadQuaternion(this BinaryReader BR) => new SourceQuaternion(BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle());
+        public static SourceRadianEuler ReadRadianEuler(this BinaryReader BR) => new SourceRadianEuler(BR.ReadSingle(), BR.ReadSingle(), BR.ReadSingle());
+
+        public static SourceMatrix3x4 ReadMatrix3x4(this BinaryReader BR) => new SourceMatrix3x4(BR.ReadVector(), BR.ReadVector(), BR.ReadVector(), BR.ReadVector());
 
         public static SourceColor32 ReadColor32(this BinaryReader BR) => new SourceColor32(BR.ReadByte(), BR.ReadByte(), BR.ReadByte(), BR.ReadByte());
         public static ColorRGBExp32 ReadColorRGBExp32(this BinaryReader BR) => new ColorRGBExp32(BR.ReadByte(), BR.ReadByte(), BR.ReadByte(), BR.ReadByte());
@@ -55,5 +60,7 @@ namespace SourceFormatParser.Common
             return ret;
         }
         #endregion
+
+        public static string ReadString(this BinaryReader BR, int count) => Encoding.ASCII.GetString(BR.ReadBytes(64)).Replace("\0", "");
     }
 }

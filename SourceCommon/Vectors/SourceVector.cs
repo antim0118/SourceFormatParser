@@ -159,6 +159,7 @@ namespace SourceFormatParser.Common
 
 		public override string ToString() => $"{{{x}; {y}; {z}}}";
 
+		public static SourceVector Empty => new SourceVector();
 #if (UNITY)
         public UnityEngine.Vector3 toVector3() => new UnityEngine.Vector3(x, y, z);
 #else

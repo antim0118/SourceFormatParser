@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bsptest.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>

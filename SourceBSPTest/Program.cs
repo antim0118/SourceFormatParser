@@ -53,9 +53,9 @@ namespace SourceFormatParser.BSP.SourceBSPTest
                         if (_spl0.Length == 3)
                             info = _spl0[0];
 
+                        SourceBSP bsp;
                         try
                         {
-                            SourceBSP bsp;
                             if (info == "l4d2")
                                 bsp = new SourceBSP(path, SourceBSP.SourceGame.Left4Dead2);
                             else if (info == "csgops3")
